@@ -1,0 +1,77 @@
+header{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    padding-top:40px;
+    background-color: rebeccapurple;
+    color:rgb(18, 240, 85) ;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:200px;
+
+}
+.stock{
+    position:absolute;
+    top:50%;
+    max-width:100%;
+    background-color: rebeccapurple;
+}
+ .stock h1{
+   
+    color: rgb(18, 240, 85);
+}
+.calculate{
+   display: block;
+    margin: auto;
+    position:relative;
+    top:70px;
+    width:500px;
+    height: 600px;
+    background-color: rgb(18, 240, 85);
+}
+.calculate p {
+    position: relative;
+    top:50px;
+    text-align: center;
+    color:rebeccapurple ;
+    font-size: 50px;
+}
+.Enter{
+   display: block;
+   margin: auto;
+   position:relative;
+    top:50px;
+    height: 50px;
+    width: 400px;
+    color:rebeccapurple ;
+   
+}
+#check{
+    display: block;
+    margin: auto;
+    position:relative;
+     top:100px;
+     height: 50px;
+     width: 200px;
+     font-size: 30px;
+     font-weight:bold;
+     background-color: rebeccapurple;
+     color:rgb(18, 240, 85);
+    
+}
+#check:hover{
+    background-color: rgb(18, 240, 85);
+    color: rebeccapurple;
+}
+#show{
+    font-size: 40px;
+    position:relative;
+    background-color: rebeccapurple;
+    color: rgb(18, 240, 85);
+    top:120px;
+}
